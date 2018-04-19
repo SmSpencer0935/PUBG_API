@@ -714,7 +714,7 @@ included.(\d*).(.*)</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Travis\AppData\Local\Temp\Engine_3872_88fbc0e27be8409a8efbc1244428fedb_\Engine_7020_2bad3640e0d24cb6adf6a694db30aa42_.yxdb</TempFile>
+          <TempFile>C:\Users\Travis\AppData\Local\Temp\Engine_3328_82901730314844249cd9637907f04088_\Engine_5536_9d01e27145d647aa9a866e59a6276ae4_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -742,7 +742,7 @@ included.(\d*).(.*)</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Travis\AppData\Local\Temp\Engine_3872_88fbc0e27be8409a8efbc1244428fedb_\Engine_7020_fc5bbea6416449eea79c0e8ea8640a9b_.yxdb</TempFile>
+          <TempFile>C:\Users\Travis\AppData\Local\Temp\Engine_3328_82901730314844249cd9637907f04088_\Engine_5536_f67b02a6c6c941e7bb7eec4d14ef030c_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -850,7 +850,7 @@ included.(\d*).(.*)</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Travis\AppData\Local\Temp\Engine_3872_88fbc0e27be8409a8efbc1244428fedb_\Engine_7020_080141646f5c433e81bb90693cadda6c_.yxdb</TempFile>
+          <TempFile>C:\Users\Travis\AppData\Local\Temp\Engine_3328_82901730314844249cd9637907f04088_\Engine_5536_445c03e3c21449cb806500153bcda5e7_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -913,7 +913,7 @@ included.(\d*).(.*)</DefaultAnnotationText>
           <File FileFormat="25" MaxRecords="">.\Last_Match.xlsx|||Sheet1</File>
           <Passwords />
           <FormatSpecificOptions>
-            <OutputOption>Create</OutputOption>
+            <OutputOption>Overwrite</OutputOption>
           </FormatSpecificOptions>
           <MultiFile value="False" />
         </Configuration>
@@ -923,6 +923,9 @@ included.(\d*).(.*)</DefaultAnnotationText>
 Table=Sheet1</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
@@ -932,6 +935,7 @@ Table=Sheet1</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
+          <TempFile>C:\Users\Travis\AppData\Local\Temp\Engine_3328_82901730314844249cd9637907f04088_\Engine_5536_311076981e4a4429b1bfdd06fd05dbb0_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -1073,7 +1077,7 @@ Table=Sheet1</DefaultAnnotationText>
     <DisableAllOutput value="False" />
     <ShowAllMacroMessages value="False" />
     <ShowConnectionStatusIsOn value="True" />
-    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
     <ZoomLevel value="0" />
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
