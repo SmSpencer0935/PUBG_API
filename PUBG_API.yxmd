@@ -1,0 +1,1101 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1590" y="486" width="228" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1590" y="318" width="228" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="150" width="100" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Name" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Dmxgrrbark</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Enter Player Name Here</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+        <Position x="474" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <URLField>URL</URLField>
+          <OutputMode>String</OutputMode>
+          <CodePage>65001</CodePage>
+          <EncodeURLs value="True" />
+          <Headers>
+            <NameValues>
+              <Item name="Authorization" value="Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0YmI2NmE3MC0xOGRjLTAxMzYtODIyOC0yOTdjNjFiYTg0YmUiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNTIyNjk4MzE4LCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6ImZrYnlfMSIsInNjb3BlIjoiY29tbXVuaXR5IiwibGltaXQiOjEwfQ.HiJzQHW_V1PHE8E0kcpeQg-4qQxL3IB-k4Dd9ACaVhg" />
+              <Item name="Accept" value="application/vnd.api+json" />
+            </NameValues>
+            <Fields orderChanged="False">
+              <Field name="Name" selected="False" />
+              <Field name="URL" selected="False" />
+              <Field name="*Unknown" selected="False" />
+            </Fields>
+          </Headers>
+          <Payload>
+            <HTTPAction>GET</HTTPAction>
+            <QueryStringBodyMode>Compose</QueryStringBodyMode>
+            <ComposeNameValues />
+            <ComposeFields orderChanged="False">
+              <Field name="Name" selected="False" />
+              <Field name="URL" selected="False" />
+              <Field name="*Unknown" selected="False" />
+            </ComposeFields>
+          </Payload>
+          <UserName />
+          <Password />
+          <numConnections>2</numConnections>
+          <Timeout>600</Timeout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JSONParse.JSONParse">
+        <Position x="570" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JSON_Field>DownloadData</JSON_Field>
+          <IncludeInOutput value="False" />
+          <SingleField value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJSONParse" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="378" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;https://api.playbattlegrounds.com/shards/pc-na/players?filter[playerNames]=&quot;+[Name]" field="URL" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>URL = "https://api.playbattlegrounds.com/shards/pc-na/players?filter[playerNames...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="666" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>Contains([JSON_Name],"matches.data") AND Contains([JSON_Name],".id")</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>JSON_Name</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-04-18 19:25:05</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-04-18 19:25:05</StartDate>
+              <EndDate>2018-04-18 19:25:05</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([JSON_Name],"matches.data") AND Contains([JSON_Name],".id")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="762" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="JSON_ValueString" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: JSON_ValueString</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="882" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;https://api.playbattlegrounds.com/shards/pc-na/matches/&quot;+[JSON_ValueString]" field="URL2" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>URL2 = "https://api.playbattlegrounds.com/shards/pc-na/matches/"+[JSON_ValueStri...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+        <Position x="1002" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <URLField>URL2</URLField>
+          <OutputMode>String</OutputMode>
+          <CodePage>65001</CodePage>
+          <EncodeURLs value="True" />
+          <Headers>
+            <NameValues>
+              <Item name="Authorization" value="Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0YmI2NmE3MC0xOGRjLTAxMzYtODIyOC0yOTdjNjFiYTg0YmUiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNTIyNjk4MzE4LCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6ImZrYnlfMSIsInNjb3BlIjoiY29tbXVuaXR5IiwibGltaXQiOjEwfQ.HiJzQHW_V1PHE8E0kcpeQg-4qQxL3IB-k4Dd9ACaVhg" />
+              <Item name="Accept" value="application/vnd.api+json" />
+            </NameValues>
+            <Fields orderChanged="False">
+              <Field name="Name" selected="False" />
+              <Field name="URL" selected="False" />
+              <Field name="DownloadHeaders" selected="False" />
+              <Field name="JSON_Name" selected="False" />
+              <Field name="JSON_ValueString" selected="False" />
+              <Field name="URL2" selected="False" />
+              <Field name="*Unknown" selected="False" />
+            </Fields>
+          </Headers>
+          <Payload>
+            <HTTPAction>GET</HTTPAction>
+            <QueryStringBodyMode>Compose</QueryStringBodyMode>
+            <ComposeNameValues />
+            <ComposeFields orderChanged="False">
+              <Field name="Name" selected="False" />
+              <Field name="URL" selected="False" />
+              <Field name="DownloadHeaders" selected="False" />
+              <Field name="JSON_Name" selected="False" />
+              <Field name="JSON_ValueString" selected="False" />
+              <Field name="URL2" selected="False" />
+              <Field name="*Unknown" selected="False" />
+            </ComposeFields>
+          </Payload>
+          <UserName />
+          <Password />
+          <numConnections>2</numConnections>
+          <Timeout>600</Timeout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JSONParse.JSONParse">
+        <Position x="1098" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JSON_Field>DownloadData</JSON_Field>
+          <IncludeInOutput value="False" />
+          <SingleField value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJSONParse" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Tile.Tile">
+        <Position x="426" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False" />
+          <Method>UniqueValue</Method>
+          <UniqueValue>
+            <UniqueFields>
+              <Field field="JSON_ValueString" />
+            </UniqueFields>
+            <DontSort value="False" />
+          </UniqueValue>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTile" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="510" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>JSON_Name2</Field>
+          <RegExExpression value="included.(\d*).(.*)" />
+          <CaseInsensitve value="False" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName />
+            <NumFields value="2" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="PlayerID" type="V_WString" size="254" />
+            <Field field="Field" type="V_WString" size="254" />
+          </ParseComplex>
+          <Match>
+            <Field>Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Parse:
+included.(\d*).(.*)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="False" />
+            <SelectField field="URL" selected="False" />
+            <SelectField field="DownloadHeaders" selected="False" />
+            <SelectField field="JSON_Name" selected="False" />
+            <SelectField field="JSON_ValueString" selected="False" />
+            <SelectField field="URL2" selected="False" />
+            <SelectField field="DownloadHeaders2" selected="False" />
+            <SelectField field="JSON_Name2" selected="False" />
+            <SelectField field="Tile_Num" selected="True" rename="MatchID" />
+            <SelectField field="Tile_SequenceNum" selected="False" />
+            <SelectField field="PlayerID" selected="True" />
+            <SelectField field="Field" selected="True" />
+            <SelectField field="JSON_ValueString2" selected="True" rename="Value" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="702" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>IsNull([PlayerID]) OR IsNull([Field])</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>IsNull</Operator>
+            <Field>PlayerID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-04-18 19:57:26</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-04-18 19:57:26</StartDate>
+              <EndDate>2018-04-18 19:57:26</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNull([PlayerID]) OR IsNull([Field])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="822" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="MatchID" />
+            <Field field="PlayerID" />
+          </GroupFields>
+          <HeaderField field="Field" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator />
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="MatchID" source="CrossTab:Group:Concat:" type="Int32" />
+            <Field description="RegEx: Parsed from JSON_Name2" name="PlayerID" size="254" source="CrossTab:Group:Concat:" type="V_WString" />
+            <Field name="attributes_actor" size="2048" source="CrossTab:Header:Field:attributes.actor:Concat:" type="V_WString" />
+            <Field name="attributes_createdAt" size="2048" source="CrossTab:Header:Field:attributes.createdAt:Concat:" type="V_WString" />
+            <Field name="attributes_description" size="2048" source="CrossTab:Header:Field:attributes.description:Concat:" type="V_WString" />
+            <Field name="attributes_name" size="2048" source="CrossTab:Header:Field:attributes.name:Concat:" type="V_WString" />
+            <Field name="attributes_shardId" size="2048" source="CrossTab:Header:Field:attributes.shardId:Concat:" type="V_WString" />
+            <Field name="attributes_stats_assists" size="2048" source="CrossTab:Header:Field:attributes.stats.assists:Concat:" type="V_WString" />
+            <Field name="attributes_stats_boosts" size="2048" source="CrossTab:Header:Field:attributes.stats.boosts:Concat:" type="V_WString" />
+            <Field name="attributes_stats_damageDealt" size="2048" source="CrossTab:Header:Field:attributes.stats.damageDealt:Concat:" type="V_WString" />
+            <Field name="attributes_stats_DBNOs" size="2048" source="CrossTab:Header:Field:attributes.stats.DBNOs:Concat:" type="V_WString" />
+            <Field name="attributes_stats_deathType" size="2048" source="CrossTab:Header:Field:attributes.stats.deathType:Concat:" type="V_WString" />
+            <Field name="attributes_stats_headshotKills" size="2048" source="CrossTab:Header:Field:attributes.stats.headshotKills:Concat:" type="V_WString" />
+            <Field name="attributes_stats_heals" size="2048" source="CrossTab:Header:Field:attributes.stats.heals:Concat:" type="V_WString" />
+            <Field name="attributes_stats_killPlace" size="2048" source="CrossTab:Header:Field:attributes.stats.killPlace:Concat:" type="V_WString" />
+            <Field name="attributes_stats_killPoints" size="2048" source="CrossTab:Header:Field:attributes.stats.killPoints:Concat:" type="V_WString" />
+            <Field name="attributes_stats_killPointsDelta" size="2048" source="CrossTab:Header:Field:attributes.stats.killPointsDelta:Concat:" type="V_WString" />
+            <Field name="attributes_stats_kills" size="2048" source="CrossTab:Header:Field:attributes.stats.kills:Concat:" type="V_WString" />
+            <Field name="attributes_stats_killStreaks" size="2048" source="CrossTab:Header:Field:attributes.stats.killStreaks:Concat:" type="V_WString" />
+            <Field name="attributes_stats_lastKillPoints" size="2048" source="CrossTab:Header:Field:attributes.stats.lastKillPoints:Concat:" type="V_WString" />
+            <Field name="attributes_stats_lastWinPoints" size="2048" source="CrossTab:Header:Field:attributes.stats.lastWinPoints:Concat:" type="V_WString" />
+            <Field name="attributes_stats_longestKill" size="2048" source="CrossTab:Header:Field:attributes.stats.longestKill:Concat:" type="V_WString" />
+            <Field name="attributes_stats_mostDamage" size="2048" source="CrossTab:Header:Field:attributes.stats.mostDamage:Concat:" type="V_WString" />
+            <Field name="attributes_stats_name" size="2048" source="CrossTab:Header:Field:attributes.stats.name:Concat:" type="V_WString" />
+            <Field name="attributes_stats_playerId" size="2048" source="CrossTab:Header:Field:attributes.stats.playerId:Concat:" type="V_WString" />
+            <Field name="attributes_stats_rank" size="2048" source="CrossTab:Header:Field:attributes.stats.rank:Concat:" type="V_WString" />
+            <Field name="attributes_stats_revives" size="2048" source="CrossTab:Header:Field:attributes.stats.revives:Concat:" type="V_WString" />
+            <Field name="attributes_stats_rideDistance" size="2048" source="CrossTab:Header:Field:attributes.stats.rideDistance:Concat:" type="V_WString" />
+            <Field name="attributes_stats_roadKills" size="2048" source="CrossTab:Header:Field:attributes.stats.roadKills:Concat:" type="V_WString" />
+            <Field name="attributes_stats_teamId" size="2048" source="CrossTab:Header:Field:attributes.stats.teamId:Concat:" type="V_WString" />
+            <Field name="attributes_stats_teamKills" size="2048" source="CrossTab:Header:Field:attributes.stats.teamKills:Concat:" type="V_WString" />
+            <Field name="attributes_stats_timeSurvived" size="2048" source="CrossTab:Header:Field:attributes.stats.timeSurvived:Concat:" type="V_WString" />
+            <Field name="attributes_stats_vehicleDestroys" size="2048" source="CrossTab:Header:Field:attributes.stats.vehicleDestroys:Concat:" type="V_WString" />
+            <Field name="attributes_stats_walkDistance" size="2048" source="CrossTab:Header:Field:attributes.stats.walkDistance:Concat:" type="V_WString" />
+            <Field name="attributes_stats_weaponsAcquired" size="2048" source="CrossTab:Header:Field:attributes.stats.weaponsAcquired:Concat:" type="V_WString" />
+            <Field name="attributes_stats_winPlace" size="2048" source="CrossTab:Header:Field:attributes.stats.winPlace:Concat:" type="V_WString" />
+            <Field name="attributes_stats_winPoints" size="2048" source="CrossTab:Header:Field:attributes.stats.winPoints:Concat:" type="V_WString" />
+            <Field name="attributes_stats_winPointsDelta" size="2048" source="CrossTab:Header:Field:attributes.stats.winPointsDelta:Concat:" type="V_WString" />
+            <Field name="attributes_URL" size="2048" source="CrossTab:Header:Field:attributes.URL:Concat:" type="V_WString" />
+            <Field name="attributes_won" size="2048" source="CrossTab:Header:Field:attributes.won:Concat:" type="V_WString" />
+            <Field name="id" size="2048" source="CrossTab:Header:Field:id:Concat:" type="V_WString" />
+            <Field name="relationships_participants_data_0_id" size="2048" source="CrossTab:Header:Field:relationships.participants.data.0.id:Concat:" type="V_WString" />
+            <Field name="relationships_participants_data_0_type" size="2048" source="CrossTab:Header:Field:relationships.participants.data.0.type:Concat:" type="V_WString" />
+            <Field name="relationships_participants_data_1_id" size="2048" source="CrossTab:Header:Field:relationships.participants.data.1.id:Concat:" type="V_WString" />
+            <Field name="relationships_participants_data_1_type" size="2048" source="CrossTab:Header:Field:relationships.participants.data.1.type:Concat:" type="V_WString" />
+            <Field name="relationships_participants_data_2_id" size="2048" source="CrossTab:Header:Field:relationships.participants.data.2.id:Concat:" type="V_WString" />
+            <Field name="relationships_participants_data_2_type" size="2048" source="CrossTab:Header:Field:relationships.participants.data.2.type:Concat:" type="V_WString" />
+            <Field name="relationships_participants_data_3_id" size="2048" source="CrossTab:Header:Field:relationships.participants.data.3.id:Concat:" type="V_WString" />
+            <Field name="relationships_participants_data_3_type" size="2048" source="CrossTab:Header:Field:relationships.participants.data.3.type:Concat:" type="V_WString" />
+            <Field name="relationships_team_data" size="2048" source="CrossTab:Header:Field:relationships.team.data:Concat:" type="V_WString" />
+            <Field name="type" size="2048" source="CrossTab:Header:Field:type:Concat:" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="MatchID" order="Asc" />
+            <Field field="PlayerID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="918" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="PlayerID" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PlayerID - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1038" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[type] = "participant"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-04-18 20:07:09</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>participant</Operand>
+              <StartDate>2018-04-18 20:07:09</StartDate>
+              <EndDate>2018-04-18 20:07:09</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[type] = "participant"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1158" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[type] = "roster"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-04-18 20:07:38</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>roster</Operand>
+              <StartDate>2018-04-18 20:07:38</StartDate>
+              <EndDate>2018-04-18 20:07:38</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[type] = "roster"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1278" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="MatchID" selected="True" />
+            <SelectField field="attributes_createdAt" selected="True" />
+            <SelectField field="attributes_name" selected="True" />
+            <SelectField field="attributes_URL" selected="True" />
+            <SelectField field="id" selected="True" />
+            <SelectField field="type" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1278" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="MatchID" selected="True" />
+            <SelectField field="attributes_shardId" selected="True" />
+            <SelectField field="attributes_stats_rank" selected="True" />
+            <SelectField field="attributes_stats_teamId" selected="True" />
+            <SelectField field="attributes_won" selected="True" />
+            <SelectField field="id" selected="True" />
+            <SelectField field="relationships_participants_data_0_id" selected="True" />
+            <SelectField field="relationships_participants_data_0_type" selected="True" />
+            <SelectField field="relationships_participants_data_1_id" selected="True" />
+            <SelectField field="relationships_participants_data_1_type" selected="True" />
+            <SelectField field="type" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1146" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="MatchID" selected="True" />
+            <SelectField field="attributes_shardId" selected="True" />
+            <SelectField field="attributes_stats_assists" selected="True" />
+            <SelectField field="attributes_stats_boosts" selected="True" />
+            <SelectField field="attributes_stats_damageDealt" selected="True" />
+            <SelectField field="attributes_stats_DBNOs" selected="True" />
+            <SelectField field="attributes_stats_deathType" selected="True" />
+            <SelectField field="attributes_stats_headshotKills" selected="True" />
+            <SelectField field="attributes_stats_heals" selected="True" />
+            <SelectField field="attributes_stats_killPlace" selected="True" />
+            <SelectField field="attributes_stats_killPoints" selected="True" />
+            <SelectField field="attributes_stats_killPointsDelta" selected="True" />
+            <SelectField field="attributes_stats_kills" selected="True" />
+            <SelectField field="attributes_stats_killStreaks" selected="True" />
+            <SelectField field="attributes_stats_lastKillPoints" selected="True" />
+            <SelectField field="attributes_stats_lastWinPoints" selected="True" />
+            <SelectField field="attributes_stats_longestKill" selected="True" />
+            <SelectField field="attributes_stats_mostDamage" selected="True" />
+            <SelectField field="attributes_stats_name" selected="True" />
+            <SelectField field="attributes_stats_playerId" selected="True" />
+            <SelectField field="attributes_stats_revives" selected="True" />
+            <SelectField field="attributes_stats_rideDistance" selected="True" />
+            <SelectField field="attributes_stats_roadKills" selected="True" />
+            <SelectField field="attributes_stats_teamKills" selected="True" />
+            <SelectField field="attributes_stats_timeSurvived" selected="True" />
+            <SelectField field="attributes_stats_vehicleDestroys" selected="True" />
+            <SelectField field="attributes_stats_walkDistance" selected="True" />
+            <SelectField field="attributes_stats_weaponsAcquired" selected="True" />
+            <SelectField field="attributes_stats_winPlace" selected="True" />
+            <SelectField field="attributes_stats_winPoints" selected="True" />
+            <SelectField field="attributes_stats_winPointsDelta" selected="True" />
+            <SelectField field="id" selected="True" />
+            <SelectField field="type" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1374" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Travis\AppData\Local\Temp\Engine_3872_88fbc0e27be8409a8efbc1244428fedb_\Engine_7020_2bad3640e0d24cb6adf6a694db30aa42_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1374" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Travis\AppData\Local\Temp\Engine_3872_88fbc0e27be8409a8efbc1244428fedb_\Engine_7020_fc5bbea6416449eea79c0e8ea8640a9b_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Tile.Tile">
+        <Position x="1242" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False">
+            <Field name="MatchID" />
+          </GroupFields>
+          <Method>UniqueValue</Method>
+          <UniqueValue>
+            <UniqueFields>
+              <Field field="attributes_stats_name" />
+            </UniqueFields>
+            <DontSort value="False" />
+          </UniqueValue>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTile" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1326" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="MatchID" selected="True" />
+            <SelectField field="Tile_Num" selected="True" rename="PlayerID" />
+            <SelectField field="attributes_shardId" selected="True" />
+            <SelectField field="attributes_stats_assists" selected="True" />
+            <SelectField field="attributes_stats_boosts" selected="True" />
+            <SelectField field="attributes_stats_damageDealt" selected="True" />
+            <SelectField field="attributes_stats_DBNOs" selected="True" />
+            <SelectField field="attributes_stats_deathType" selected="True" />
+            <SelectField field="attributes_stats_headshotKills" selected="True" />
+            <SelectField field="attributes_stats_heals" selected="True" />
+            <SelectField field="attributes_stats_killPlace" selected="True" />
+            <SelectField field="attributes_stats_killPoints" selected="True" />
+            <SelectField field="attributes_stats_killPointsDelta" selected="True" />
+            <SelectField field="attributes_stats_kills" selected="True" />
+            <SelectField field="attributes_stats_killStreaks" selected="True" />
+            <SelectField field="attributes_stats_lastKillPoints" selected="True" />
+            <SelectField field="attributes_stats_lastWinPoints" selected="True" />
+            <SelectField field="attributes_stats_longestKill" selected="True" />
+            <SelectField field="attributes_stats_mostDamage" selected="True" />
+            <SelectField field="attributes_stats_name" selected="True" />
+            <SelectField field="attributes_stats_playerId" selected="True" />
+            <SelectField field="attributes_stats_revives" selected="True" />
+            <SelectField field="attributes_stats_rideDistance" selected="True" />
+            <SelectField field="attributes_stats_roadKills" selected="True" />
+            <SelectField field="attributes_stats_teamKills" selected="True" />
+            <SelectField field="attributes_stats_timeSurvived" selected="True" />
+            <SelectField field="attributes_stats_vehicleDestroys" selected="True" />
+            <SelectField field="attributes_stats_walkDistance" selected="True" />
+            <SelectField field="attributes_stats_weaponsAcquired" selected="True" />
+            <SelectField field="attributes_stats_winPlace" selected="True" />
+            <SelectField field="attributes_stats_winPoints" selected="True" />
+            <SelectField field="attributes_stats_winPointsDelta" selected="True" />
+            <SelectField field="id" selected="True" />
+            <SelectField field="type" selected="True" />
+            <SelectField field="Tile_SequenceNum" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1410" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Travis\AppData\Local\Temp\Engine_3872_88fbc0e27be8409a8efbc1244428fedb_\Engine_7020_080141646f5c433e81bb90693cadda6c_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1482" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[MatchID] = 1</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>MatchID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-04-18 20:24:58</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2018-04-18 20:24:58</StartDate>
+              <EndDate>2018-04-18 20:24:58</EndDate>
+              <Operand>1</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[MatchID] = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1662" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">.\Last_Match.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Last_Match.xlsx
+Table=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1662" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>View Match Data Here</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Unique" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="False" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="False" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="True" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="False" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="True" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>PUBG_API</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
