@@ -516,24 +516,6 @@ included.(\d*).(.*)</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
     </Node>
-    <Node ToolID="21">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="918" y="378" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <SortInfo locale="1033">
-            <Field field="PlayerID" order="Ascending" />
-          </SortInfo>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>PlayerID - Ascending</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
-    </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
         <Position x="1038" y="378" />
@@ -890,9 +872,9 @@ included.(\d*).(.*)</DefaultAnnotationText>
               <PeriodType>
               </PeriodType>
               <PeriodCount>0</PeriodCount>
+              <Operand>1</Operand>
               <StartDate>2018-04-18 20:24:58</StartDate>
               <EndDate>2018-04-18 20:24:58</EndDate>
-              <Operand>1</Operand>
             </Operands>
           </Simple>
         </Configuration>
@@ -1009,10 +991,6 @@ Table=Sheet1</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="20" Connection="Output" />
-      <Destination ToolID="21" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="21" Connection="Output" />
       <Destination ToolID="22" Connection="Input" />
     </Connection>
     <Connection>

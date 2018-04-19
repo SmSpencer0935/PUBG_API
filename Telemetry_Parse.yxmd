@@ -1,0 +1,1100 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>99999999999999999999999999999999999999999999</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Telemetry_Data_Sample.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sequence" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="attacker_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="attacker_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="attacker_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="attacker_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="attacker_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="attacker_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="attacker_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="attacker_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="attackId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="attackType" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="blueZoneCustomOptions" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="cameraViewBehaviour" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="character_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="character_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="character_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="character_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="character_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="character_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="character_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="character_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_0_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_0_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_0_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_0_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_0_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_0_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_0_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_0_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_1_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_1_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_1_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_1_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_1_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_1_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_1_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_1_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_2_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_2_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_2_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_2_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_2_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_2_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_2_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_2_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_3_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_3_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_3_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_3_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_3_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_3_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_3_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_3_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_4_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_4_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_4_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_4_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_4_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_4_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_4_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_4_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_5_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_5_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_5_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_5_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_5_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_5_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_5_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_5_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_6_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_6_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_6_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_6_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_6_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_6_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_6_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_6_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_7_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_7_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_7_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_7_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_7_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_7_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_7_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_7_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_8_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_8_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_8_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_8_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_8_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_8_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_8_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_8_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_9_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_9_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_9_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_9_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_9_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_9_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_9_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_9_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_10_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_10_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_10_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_10_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_10_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_10_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_10_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_10_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_11_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_11_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_11_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_11_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_11_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_11_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_11_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_11_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_12_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_12_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_12_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_12_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_12_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_12_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_12_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_12_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_13_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_13_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_13_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_13_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_13_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_13_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_13_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_13_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_14_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_14_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_14_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_14_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_14_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_14_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_14_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_14_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_15_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_15_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_15_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_15_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_15_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_15_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_15_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_15_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_16_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_16_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_16_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_16_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_16_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_16_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_16_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_16_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_17_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_17_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_17_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_17_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_17_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_17_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_17_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_17_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_18_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_18_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_18_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_18_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_18_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_18_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_18_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_18_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_19_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_19_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_19_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_19_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_19_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_19_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_19_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_19_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_20_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_20_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_20_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_20_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_20_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_20_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_20_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_20_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_21_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_21_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_21_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_21_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_21_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_21_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_21_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_21_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_22_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_22_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_22_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_22_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_22_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_22_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_22_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_22_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_23_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_23_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_23_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_23_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_23_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_23_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_23_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_23_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_24_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_24_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_24_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_24_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_24_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_24_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_24_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_24_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_25_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_25_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_25_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_25_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_25_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_25_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_25_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_25_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_26_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_26_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_26_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_26_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_26_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_26_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_26_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_26_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_27_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_27_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_27_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_27_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_27_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_27_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_27_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_27_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_28_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_28_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_28_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_28_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_28_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_28_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_28_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_28_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_29_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_29_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_29_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_29_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_29_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_29_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_29_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_29_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_30_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_30_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_30_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_30_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_30_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_30_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_30_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_30_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_31_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_31_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_31_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_31_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_31_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_31_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_31_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_31_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_32_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_32_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_32_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_32_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_32_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_32_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_32_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_32_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_33_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_33_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_33_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_33_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_33_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_33_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_33_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_33_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_34_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_34_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_34_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_34_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_34_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_34_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_34_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_34_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_35_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_35_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_35_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_35_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_35_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_35_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_35_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_35_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_36_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_36_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_36_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_36_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_36_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_36_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_36_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_36_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_37_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_37_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_37_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_37_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_37_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_37_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_37_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_37_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_38_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_38_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_38_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_38_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_38_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_38_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_38_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_38_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_39_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_39_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_39_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_39_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_39_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_39_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_39_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_39_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_40_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_40_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_40_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_40_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_40_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_40_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_40_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_40_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_41_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_41_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_41_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_41_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_41_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_41_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_41_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_41_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_42_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_42_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_42_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_42_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_42_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_42_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_42_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_42_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_43_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_43_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_43_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_43_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_43_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_43_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_43_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_43_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_44_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_44_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_44_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_44_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_44_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_44_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_44_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_44_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_45_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_45_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_45_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_45_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_45_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_45_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_45_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_45_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_46_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_46_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_46_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_46_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_46_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_46_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_46_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_46_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_47_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_47_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_47_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_47_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_47_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_47_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_47_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_47_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_48_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_48_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_48_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_48_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_48_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_48_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_48_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_48_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_49_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_49_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_49_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_49_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_49_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_49_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_49_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_49_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_50_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_50_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_50_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_50_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_50_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_50_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_50_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_50_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_51_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_51_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_51_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_51_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_51_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_51_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_51_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_51_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_52_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_52_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_52_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_52_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_52_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_52_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_52_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_52_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_53_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_53_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_53_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_53_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_53_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_53_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_53_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_53_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_54_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_54_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_54_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_54_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_54_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_54_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_54_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_54_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_55_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_55_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_55_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_55_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_55_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_55_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_55_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_55_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_56_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_56_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_56_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_56_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_56_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_56_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_56_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_56_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_57_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_57_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_57_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_57_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_57_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_57_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_57_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_57_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_58_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_58_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_58_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_58_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_58_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_58_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_58_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_58_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_59_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_59_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_59_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_59_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_59_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_59_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_59_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_59_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_60_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_60_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_60_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_60_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_60_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_60_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_60_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_60_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_61_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_61_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_61_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_61_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_61_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_61_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_61_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_61_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_62_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_62_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_62_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_62_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_62_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_62_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_62_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_62_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_63_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_63_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_63_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_63_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_63_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_63_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_63_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_63_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_64_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_64_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_64_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_64_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_64_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_64_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_64_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_64_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_65_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_65_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_65_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_65_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_65_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_65_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_65_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_65_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_66_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_66_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_66_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_66_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_66_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_66_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_66_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_66_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_67_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_67_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_67_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_67_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_67_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_67_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_67_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_67_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_68_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_68_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_68_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_68_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_68_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_68_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_68_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_68_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_69_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_69_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_69_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_69_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_69_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_69_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_69_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_69_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_70_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_70_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_70_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_70_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_70_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_70_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_70_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_70_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_71_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_71_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_71_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_71_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_71_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_71_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_71_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_71_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_72_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_72_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_72_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_72_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_72_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_72_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_72_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_72_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_73_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_73_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_73_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_73_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_73_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_73_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_73_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_73_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_74_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_74_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_74_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_74_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_74_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_74_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_74_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_74_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_75_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_75_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_75_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_75_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_75_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_75_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_75_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_75_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_76_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_76_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_76_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_76_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_76_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_76_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_76_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_76_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_77_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_77_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_77_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_77_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_77_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_77_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_77_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_77_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_78_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_78_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_78_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_78_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_78_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_78_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_78_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_78_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_79_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_79_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_79_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_79_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_79_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_79_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_79_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_79_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_80_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_80_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_80_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_80_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_80_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_80_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_80_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_80_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_81_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_81_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_81_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_81_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_81_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_81_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_81_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_81_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_82_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_82_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_82_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_82_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_82_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_82_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_82_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_82_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_83_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_83_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_83_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_83_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_83_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_83_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_83_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_83_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_84_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_84_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_84_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_84_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_84_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_84_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_84_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_84_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_85_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_85_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_85_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_85_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_85_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_85_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_85_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_85_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_86_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_86_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_86_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_86_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_86_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_86_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_86_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_86_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_87_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_87_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_87_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_87_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_87_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_87_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_87_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_87_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_88_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_88_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_88_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_88_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_88_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_88_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_88_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_88_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_89_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_89_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_89_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_89_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_89_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_89_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_89_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_89_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_90_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_90_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_90_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_90_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_90_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_90_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_90_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_90_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_91_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_91_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_91_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_91_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_91_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_91_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_91_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_91_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_92_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_92_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_92_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_92_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_92_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_92_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_92_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_92_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_93_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_93_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_93_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_93_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_93_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_93_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_93_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_93_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_94_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_94_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_94_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_94_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_94_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_94_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_94_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_94_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_95_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_95_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_95_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_95_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_95_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_95_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_95_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_95_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_96_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_96_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_96_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_96_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_96_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_96_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_96_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="characters_96_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="childItem_category" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="childItem_itemId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="childItem_stackCount" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="childItem_subCategory" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="common_isGame" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="common_mapName" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="common_matchId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="damage" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="damageCauserName" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="damageReason" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="damageTypeCategory" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="distance" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="elapsedTime" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="errorMessage" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_elapsedTime" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_numAlivePlayers" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_numAliveTeams" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_numJoinPlayers" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_numStartPlayers" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_poisonGasWarningPosition_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_poisonGasWarningPosition_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_poisonGasWarningPosition_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_poisonGasWarningRadius" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_redZonePosition_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_redZonePosition_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_redZonePosition_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_redZoneRadius" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_safetyZonePosition_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_safetyZonePosition_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_safetyZonePosition_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="gameState_safetyZoneRadius" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="item_attachedItems_0" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="item_attachedItems_1" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="item_attachedItems_2" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="item_attachedItems_3" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="item_category" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="item_itemId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="item_stackCount" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="item_subCategory" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_itemPackageId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_0_category" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_0_itemId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_0_stackCount" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_0_subCategory" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_1_category" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_1_itemId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_1_stackCount" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_1_subCategory" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_2_category" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_2_itemId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_2_stackCount" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_2_subCategory" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_3_category" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_3_itemId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_3_stackCount" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_3_subCategory" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_4_category" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_4_itemId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_4_stackCount" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_4_subCategory" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_5_category" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_5_itemId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_5_stackCount" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_5_subCategory" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_6_category" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_6_itemId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_6_stackCount" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_items_6_subCategory" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="itemPackage_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="killer_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="killer_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="killer_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="killer_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="killer_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="killer_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="killer_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="killer_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="mapName" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="MatchId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="numAlivePlayers" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="parentItem_attachedItems_0" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="parentItem_attachedItems_1" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="parentItem_attachedItems_2" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="parentItem_attachedItems_3" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="parentItem_attachedItems_4" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="parentItem_category" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="parentItem_itemId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="parentItem_stackCount" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="parentItem_subCategory" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="PingQuality" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="result" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="teamSize" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="vehicle_feulPercent" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="vehicle_healthPercent" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="vehicle_vehicleId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="vehicle_vehicleType" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="victim_accountId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="victim_health" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="victim_location_x" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="victim_location_y" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="victim_location_z" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="victim_name" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="victim_ranking" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="victim_teamId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="weapon_attachedItems_0" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="weapon_attachedItems_1" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="weapon_attachedItems_2" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="weapon_attachedItems_3" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="weapon_attachedItems_4" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="weapon_category" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="weapon_itemId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="weapon_stackCount" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="weapon_subCategory" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="weatherId" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="_D" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="_T" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+            <Field name="_V" size="2147483647" source="File: G:\PUBG_API\PUBG_API\Telemetry_Data_Sample.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="138" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Sequence" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sequence - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="282" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Travis\AppData\Local\Temp\Engine_4400_7b3c6a6ee3c34c21b8af0d40d90418c4_\Engine_5536_6b788904b0444ed6a21a65de71735a1b_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FieldInfo.FieldInfo">
+        <Position x="246" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFieldInfo" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Travis\AppData\Local\Temp\Engine_4400_7b3c6a6ee3c34c21b8af0d40d90418c4_\Engine_5536_fc2fae94f1854129ad2d5c08772659bd_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Telemetry_Parse</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
